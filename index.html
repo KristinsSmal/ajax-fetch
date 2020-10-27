@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX/FETCH</title>
+</head>
+<body>
+    <div class="time-stamp"></div>   <!-- щоб побачити, чи сторінка оновлюється -->
+    <h1>AJAX/FETCH</h1>
+    <section>
+        <h2>Fetch HTML</h2> <!--кнопка Fetch HTML запустить client-data.html в js-->
+        <div class="html-container"></div>
+        <button class="fetch-html">Fetch HTML</button>
+        <button class="ajax-html">Get HTML with AJAX</button>
+    </section>
+
+    <section>
+        <h2>Fetch JSON</h2>
+        <div> 
+            <p>Client name: <span class="client-name"></span></p>
+            <p>Account balance: <span class="balance"></span></p>
+        </div>
+        <button class="fetch-json">Fetch JSON</button>
+    </section>
+<!-- в div ставимо інфо про клієнта структуровано. на екрані буде тільки Client name: 
+і Account balance: ,без даних, а дані з'являться коли клацнем кнопку Fetch JSON -->
+
+    <section>
+        <h2>Form Sample</h1>
+        <form class="login-form">
+            <label>
+                Name: <input type="text" name="name">
+            </label>
+            <br>
+            <label>
+                Password: <input type="password" name="password">
+            </label>
+            <br>
+            <input type="submit">
+        </form>
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
